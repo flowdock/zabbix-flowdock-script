@@ -3,7 +3,7 @@ Flowdock notification script for Zabbix
 
 About
 -----
-Use custom alerts from within [Zabbix](http://www.zabbix.com/) to send notifications to your flows' team inboxes in [Flowdock](http://www.flowdock.com/).
+Use [custom alerts](https://www.zabbix.com/documentation/2.4/manual/config/notifications/media/script) from within [Zabbix](http://www.zabbix.com/) to send notifications to your flows' [team inboxes](https://www.flowdock.com/help/team_inbox) in [Flowdock](http://www.flowdock.com/).
 
 The script should work with Zabbix 2.0 or greater. It is inspired by the [Zabbix Slack AlertScript](https://github.com/ericoc/zabbix-slack-alertscript).
 
