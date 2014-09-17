@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Configuration
-sender_email='noreply+zabbix.avatar@flowdock.com'
+sender_email='zabbix.avatar@flowdock.com'
 sender_name='Zabbix'
 tags='zabbix,monitoring'
 
