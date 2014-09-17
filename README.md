@@ -12,7 +12,7 @@ Installation
 
 ### Zabbix server
 
-Place the flowdock.sh script in Zabbix server's AlertScriptsPath path. The path is defined in the zabbix_server.conf configuration file. Make sure that the flowdock.sh file is executable by the user that runs zabbix_server.
+Place the [flowdock.sh script](https://raw.githubusercontent.com/flowdock/zabbix-flowdock-script/master/flowdock.sh) in Zabbix server's AlertScriptsPath path. The path is defined in the zabbix_server.conf configuration file. Make sure that the flowdock.sh file is executable by the user that runs zabbix_server.
 
 The default configuration values in flowdock.sh should work out of the box, but if you want to change the sender details or the default tags, edit the values in the Configuration section at the top of flowdock.sh.
 
