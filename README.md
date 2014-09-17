@@ -24,9 +24,9 @@ In Flowdock, copy the API token of the flow that you'd like to receive notificat
 
 As a super-administrator, select **Create media type** from the **Media types** sub-tab of the **Administration** tab. The values should be:
 
-- **Name:** Flowdock
+- **Name:** `Flowdock`
 - **Type:** Script
-- **Script name:** flowdock.sh
+- **Script name:** `flowdock.sh`
 
 Once the media has been created, add a new user called `Flowdock (flow_name)` from the **Users** sub-tab of the **Administration** tab. Specify `Flowdock` as the user's Media, and add the flow API token that you copied above as the value of the **Send to** field. **What active** should probably be `1-7,00:00-24:00` and **Use if severity** should have all options selected. Create a new user for every flow that you would like to send messages to.
 
