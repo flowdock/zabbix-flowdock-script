@@ -16,6 +16,10 @@ Place the flowdock.sh script in Zabbix server's AlertScriptsPath path. The path 
 
 The default configuration values in flowdock.sh should work out of the box, but if you want to change the sender details or the default tags, edit the values in the Configuration section at the top of flowdock.sh.
 
+- **sender_email**: The email address of the sender of the notification. If one exists, Flowdock uses the Gravatar of this email address as the avatar of the team inbox item. Default: `zabbix.avatar@flowdock.com`
+- **sender_name**: The name of the sender. Default: `Zabbix`
+- **tags**: A comma-separated list of default tags for the notifications. Default: `zabbix,monitoring`
+
 ### Flowdock
 
 In Flowdock, copy the API token of the flow that you'd like to receive notifications in. You can find the API token from the Inbox settings dialog, which can be opened by clicking on the gear icon next to the flow's name.
